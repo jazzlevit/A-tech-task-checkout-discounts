@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Models\Interfaces;
+namespace App\Services\PricingRules;
 
-interface PriceRule
+interface PricingRule
 {
     public function applyDiscount(array $items): float;
 }

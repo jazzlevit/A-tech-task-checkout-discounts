@@ -2,12 +2,10 @@
 
 namespace App\Services\PricingRules;
 
-use App\Models\Interfaces\PriceRule;
 use App\Models\Product;
 use LengthException;
-use function Psy\debug;
 
-class PricingRuleByOneTargetPercentDiscount implements PriceRule
+class PricingRuleByOneTargetPercentDiscount implements PricingRule
 {
     /**
      * Price rule requires to specify the product

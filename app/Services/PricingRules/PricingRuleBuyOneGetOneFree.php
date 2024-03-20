@@ -2,10 +2,9 @@
 
 namespace App\Services\PricingRules;
 
-use App\Models\Interfaces\PriceRule;
 use App\Models\Product;
 
-class PricingRuleBuyOneGetOneFree implements PriceRule
+class PricingRuleBuyOneGetOneFree implements PricingRule
 {
     /**
      * Price rule requires to specify the product

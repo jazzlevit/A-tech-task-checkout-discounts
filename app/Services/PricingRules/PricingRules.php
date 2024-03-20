@@ -2,8 +2,6 @@
 
 namespace App\Services\PricingRules;
 
-use App\Models\Interfaces\PriceRule;
-
 class PricingRules
 {
     /**
@@ -12,10 +10,10 @@ class PricingRules
     protected array $rules = [];
 
     /**
-     * @param PriceRule $priceRule
+     * @param PricingRule $priceRule
      * @return $this
      */
-    public function add(PriceRule $priceRule): self
+    public function add(PricingRule $priceRule): self
     {
         $this->rules[] = $priceRule;
 
