@@ -5,6 +5,9 @@ namespace App\Services;
 use App\Models\Product;
 use App\Services\PricingRules\PricingRules;
 
+/**
+ * Class Checkout
+ */
 class Checkout
 {
     /**

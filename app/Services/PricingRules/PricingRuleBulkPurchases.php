@@ -4,6 +4,9 @@ namespace App\Services\PricingRules;
 
 use App\Models\Product;
 
+/**
+ * Class PricingRuleBulkPurchases
+ */
 class PricingRuleBulkPurchases implements PricingRule
 {
     /**

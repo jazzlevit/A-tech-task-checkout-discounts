@@ -5,12 +5,17 @@ namespace App\Services\PricingRules;
 use App\Models\Product;
 use LengthException;
 
+/**
+ * Class PricingRuleByOneTargetPercentDiscount
+ */
 class PricingRuleByOneTargetPercentDiscount implements PricingRule
 {
     /**
      * Price rule requires to specify the product
      *
      * @param Product $product
+     * @param Product $targetProduct
+     * @param int $discountPercent
      */
     public function __construct(
         readonly Product $product,

@@ -2,6 +2,9 @@
 
 namespace App\Services\PricingRules;
 
+/**
+ * Class PricingRules
+ */
 class PricingRules
 {
     /**
