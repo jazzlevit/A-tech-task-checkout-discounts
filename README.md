@@ -1,4 +1,12 @@
-# Apextech task
+# A-Tech task
+
+## Task description
+- implement a flexible checkout system
+  - buy-one-get-one-free offers
+  - if you buy 3 or more same type products, the price should drop (minus 0.5 cents)
+  - implement example of buy one product, get discount for another product
+  - implement flexible architecture to apply any kind of discuount
+- code 100% covered by unit tests.
 
 ## Basic configuration
 ```
